@@ -1,0 +1,9 @@
+proto: 'http'
+host: 'localhost'
+port: 4040
+databaseURI: 'mongodb://mongo'
+appId: 'parse-playground'
+masterKey: 'some-master-key'
+appName: 'playground'
+user: 'parseuser'
+pass: 'p@ssw0rd'
