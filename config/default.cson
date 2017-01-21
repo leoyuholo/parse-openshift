@@ -1,7 +1,7 @@
 proto: 'http'
 host: 'localhost'
 port: 4040
-databaseURI: 'mongodb://mongo'
+databaseURI: 'mongodb://localhost'
 appId: 'parse-playground'
 masterKey: 'some-master-key'
 appName: 'playground'

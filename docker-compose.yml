@@ -14,7 +14,8 @@ services:
       - "4040:4040"
     environment:
       - NODE_ENV=development
-      # - PARSE_HOST=vm1.dev
+      - PARSE_HOST=vm1.dev
+      - MONGODB_URI=mongodb://mongo
     working_dir: /app_root
     # command: npm run dev-prod
     command: npm run dev
