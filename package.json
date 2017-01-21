@@ -4,7 +4,7 @@
   "author": "Leo Yu Ho, Lo <leoyuholo@gmail.com>",
   "version": "0.0.1",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --recursive --compilers coffee:coffee-script/register",
     "dev": "nodemon --exec 'mocha --recursive -t 0 --compilers coffee:coffee-script/register' --ext coffee,cson --watch .",
     "dev-prod": "nodemon app.coffee"
   },
